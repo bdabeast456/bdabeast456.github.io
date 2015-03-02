@@ -15,60 +15,61 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
-		P {
+		p {
 			text-align: center;
 		}
 	</style>
 </head>
 <body>
 	<h1>Assignment 1, by Brandon Pearl and Austin Shyu</h1>
-	<p13>Demonstrates various elements of the Phong shading model, implemented using OpenGL and C++</p13>
-	</br>
-	<p1>before -toon (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 64 -pl 2 2 2 1 0 0 -pl -2 2 2 0 1 0 -pl 0 -2 2 0 0 1)</p1>
+	<p>Demonstrates various elements of the Phong shading model, implemented using OpenGL and C++</p>
+
+
+	<p>before -toon (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 64 -pl 2 2 2 1 0 0 -pl -2 2 2 0 1 0 -pl 0 -2 2 0 0 1)</p>
 	</br>
 	<img src="btoon.png" alt="Before Toon" width="200" height="200">
 	</br>
-	<p2>after -toon (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 64 -pl 2 2 2 1 0 0 -pl -2 2 2 0 1 0 -pl 0 -2 2 0 0 1 -toon)</p2>
+	<p>after -toon (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 64 -pl 2 2 2 1 0 0 -pl -2 2 2 0 1 0 -pl 0 -2 2 0 0 1 -toon)</p>
 	</br>
 	<img src="atoon.png" alt="After Toon" width="200" height="200">
 	</br>
-	<p3>before -invert (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 256 -pl 2 2 2 1 0 1 -pl -2 2 2 0 1 0)</p3>
+	<p>before -invert (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 256 -pl 2 2 2 1 0 1 -pl -2 2 2 0 1 0)</p>
 	</br>
 	<img src="ainvert.png" alt="Before Invert" width="200" height="200">
 	</br>
-	<p4>after -invert (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 256 -pl 2 2 2 1 0 1 -pl -2 2 2 0 1 0 -invert)</p4>
+	<p>after -invert (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 256 -pl 2 2 2 1 0 1 -pl -2 2 2 0 1 0 -invert)</p>
 	</br>
 	<img src="binvert.png" alt="After Invert" width="200" height="200">
 	</br>
-	<p5>before -greyscale (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 64 -pl 2 2 2 1 0 0  -pl 0 -2 2 0 0 1)</p5>
+	<p>before -greyscale (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 64 -pl 2 2 2 1 0 0  -pl 0 -2 2 0 0 1)</p>
 	</br>
 	<img src="bgreyscale.png" alt="Before Greyscale" width="200" height="200">
 	</br>
-	<p6>after -greyscale 1 (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 64 -pl 2 2 2 1 0 0  -pl 0 -2 2 0 0 1 -greyscale 1)</p6>
+	<p>after -greyscale 1 (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 64 -pl 2 2 2 1 0 0  -pl 0 -2 2 0 0 1 -greyscale 1)</p>
 	</br>
 	<img src="agreyscale1.png" alt="After Greyscale 1" width="200" height="200">
 	</br>
-	<p7>after -greyscale 0 (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 64 -pl 2 2 2 1 0 0  -pl 0 -2 2 0 0 1 -greyscale 0)</p7>
+	<p>after -greyscale 0 (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 64 -pl 2 2 2 1 0 0  -pl 0 -2 2 0 0 1 -greyscale 0)</p>
 	</br>
 	<img src="agreyscale0.png" alt="After Greyscale 0" width="200" heignt="200">
 	</br>
-	<p8>diffuse with single light (command: -kd 1 1 1 -pl 2 2 2 0.3 0.3 0.8)</p8>
+	<p>diffuse with single light (command: -kd 1 1 1 -pl 2 2 2 0.3 0.3 0.8)</p>
 	</br>
 	<img src="diff.png" alt="Diffuse with Single Light" width="200" height="200">
 	</br>
-	<p9>specular with directional light (command: -ks 1 1 1 -sp 40 -dl 1 -1 4 0.3 0.3 0.8)</p9>
+	<p>specular with directional light (command: -ks 1 1 1 -sp 40 -dl 1 -1 4 0.3 0.3 0.8)</p>
 	</br>
 	<img src="specdir.png" alt="Specular with Direction Light" width="200" height="200">
 	</br>
-	<p10>specular with point light (command: -ks 1 1 1 -sp 40 -pl 2 2 2 0.3 0.3 0.8)</p10>
+	<p>specular with point light (command: -ks 1 1 1 -sp 40 -pl 2 2 2 0.3 0.3 0.8)</p>
 	</br>
 	<img src="specpt.png" alt="Specular with Point Light" width="200" height="200">
 	</br>
-	<p11>specular and diffuse with point light (command: -ks 1 1 1 -kd 1 1 1 -sp 40 -pl 2 2 2 0.3 0.3 0.8)</p11>
+	<p>specular and diffuse with point light (command: -ks 1 1 1 -kd 1 1 1 -sp 40 -pl 2 2 2 0.3 0.3 0.8)</p>
 	</br>
 	<img src="specdiff.png" alt="Specular and Diffuse with Point Light" width="200" height="200">
 	</br>
-	<p12>specular and diffuse with multiple lights (command: -ks 1 1 1 -kd 1 1 1 -sp 40 -pl 2 2 2 0.3 0.3 0.8 -dl 0 -1 -.1 .5 .3 .1 -pl 0 -3 .3 .3 .3 0)</p12>
+	<p>specular and diffuse with multiple lights (command: -ks 1 1 1 -kd 1 1 1 -sp 40 -pl 2 2 2 0.3 0.3 0.8 -dl 0 -1 -.1 .5 .3 .1 -pl 0 -3 .3 .3 .3 0)</p>
 	</br>
 	<img src="specdiffmult.png" alt="Specular and Diffuse with Multiple Lights" width="200" height="200">
 	</br>
