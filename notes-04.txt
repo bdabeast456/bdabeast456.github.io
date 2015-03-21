@@ -1,0 +1,12 @@
+Command Line:
+./raytracer input input-04.scn write_img image-04
+
+Run-time: <7s
+
+Features demonstrated:
+-shadows
+-reflections
+-triangles
+-directional lighting
+-ambient lighting
+-phong shading

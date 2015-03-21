@@ -1,0 +1,13 @@
+Command Line:
+./raytracer input input-08.scn write_img image-08
+
+Run-time: <3s
+
+Features demonstrated:
+-translation
+-scaling
+-rotations
+-point lighting
+-phong shading
+
+
