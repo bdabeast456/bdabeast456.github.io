@@ -25,6 +25,16 @@
 			display: block;
 			margin: 0 auto;
 		}
+		.arch1 {
+	    	display: inline-block;
+    		margin-left: auto;
+    		margin-right: auto;
+    		height: 30px; 
+		}
+
+		#images1{
+    		text-align:center;
+		}
 	</style>
 </head>
 <body>
@@ -40,7 +50,14 @@
 	</center>
 
 	<a href="tessellation.mp4">Download Video (~7MB)</a>
-	  
+	
+	<p>Uniform Tessellation on test.bez (./bezier test.bez .1)</p>
+
+	<div id="images">
+		<img class="arch1" border="0" alt="test.bez Uniform" src="a3/image-01.png" width="200" height="200">
+		<img class="arch1" border="0" alt="test.bez Uniform" src="a3/image-02.png" width="200" height="200">
+	</div>
+
 	<img src="btoon.png" alt="Before Toon" width="450" height="450">
 	  
 	<p>after -toon (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 64 -pl 2 2 2 1 0 0 -pl -2 2 2 0 1 0 -pl 0 -2 2 0 0 1 -toon)</p>
