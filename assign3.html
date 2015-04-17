@@ -20,6 +20,11 @@
 		p {
 			text-align: center;
 		}
+		a:link {
+			text-align: center;
+			display: block;
+			margin: 0 auto;
+		}
 	</style>
 </head>
 <body>
@@ -28,10 +33,11 @@
 
 
 	<p>Video demonstrating running program. First stage is uniform tessellation (./bezier teapot.bez .1) and second is adaptive tessellation (./bezier teapot.bez .01 -a)</p>
-
-	<video width="450" height="450" controls>
-		<source src="tessellation.mp4" type="video/mp4">
-	</video>
+	<center>
+		<video width="450" height="450" controls>
+			<source src="tessellation.mp4" type="video/mp4">
+		</video>
+	</center>
 
 	<a href="tessellate.mp4">Download Video (~7MB)</a>
 	  
