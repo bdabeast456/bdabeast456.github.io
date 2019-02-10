@@ -1,0 +1,9 @@
+Command Line:
+./raytracer input input-01.scn write_img image-01
+
+Run-time: >3s
+
+Features demonstrated:
+-ambient lighting
+-point lighting
+-spherical phong shading

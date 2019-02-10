@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 1: Phong Shading</title>
+	<style>
+		body {
+			background-color: grey;
+			border-style: solid;
+			border-width: 4px;
+			border-radius: 10px;
+		}
+		h1 {
+			text-align: center;
+		}
+		a:link {
+			text-align: center;
+			display: block;
+			margin: 0 auto;
+
+		}
+		img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		p {
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1>Assignment 1: Phong Shading, by Brandon Pearl and Austin Shyu</h1>
+	<p>Demonstrates various elements of the Phong shading model, implemented using OpenGL and C++</p>
+
+    <a href="https://github.com/bdabeast456/phong">Link to Code</a>
+
+
+	<p>before -toon (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 64 -pl 2 2 2 1 0 0 -pl -2 2 2 0 1 0 -pl 0 -2 2 0 0 1)</p>
+	  
+	<img src="btoon.png" alt="Before Toon" width="450" height="450">
+	  
+	<p>after -toon (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 64 -pl 2 2 2 1 0 0 -pl -2 2 2 0 1 0 -pl 0 -2 2 0 0 1 -toon)</p>
+	  
+	<img src="atoon.png" alt="After Toon" width="450" height="450">
+	  
+	<p>before -invert (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 256 -pl 2 2 2 1 0 1 -pl -2 2 2 0 1 0)</p>
+	  
+	<img src="ainvert.png" alt="Before Invert" width="450" height="450">
+	  
+	<p>after -invert (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 256 -pl 2 2 2 1 0 1 -pl -2 2 2 0 1 0 -invert)</p>
+	  
+	<img src="binvert.png" alt="After Invert" width="450" height="450">
+	  
+	<p>before -greyscale (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 64 -pl 2 2 2 1 0 0  -pl 0 -2 2 0 0 1)</p>
+	  
+	<img src="bgreyscale.png" alt="Before Greyscale" width="450" height="450">
+	  
+	<p>after -greyscale 1 (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 64 -pl 2 2 2 1 0 0  -pl 0 -2 2 0 0 1 -greyscale 1)</p>
+	  
+	<img src="agreyscale1.png" alt="After Greyscale 1" width="450" height="450">
+	  
+	<p>after -greyscale 0 (command: -ka 0.3 0.3 0.3 -kd 1 1 1 -ks 1 1 1 -sp 64 -pl 2 2 2 1 0 0  -pl 0 -2 2 0 0 1 -greyscale 0)</p>
+	  
+	<img src="agreyscale0.png" alt="After Greyscale 0" width="450" heignt="450">
+	  
+	<p>diffuse with single light (command: -kd 1 1 1 -pl 2 2 2 0.3 0.3 0.8)</p>
+	  
+	<img src="diff.png" alt="Diffuse with Single Light" width="450" height="450">
+	  
+	<p>specular with directional light (command: -ks 1 1 1 -sp 40 -dl 1 -1 4 0.3 0.3 0.8)</p>
+	  
+	<img src="specdir.png" alt="Specular with Direction Light" width="450" height="450">
+	  
+	<p>specular with point light (command: -ks 1 1 1 -sp 40 -pl 2 2 2 0.3 0.3 0.8)</p>
+	  
+	<img src="specpt.png" alt="Specular with Point Light" width="450" height="450">
+	  
+	<p>specular and diffuse with point light (command: -ks 1 1 1 -kd 1 1 1 -sp 40 -pl 2 2 2 0.3 0.3 0.8)</p>
+	  
+	<img src="specdiff.png" alt="Specular and Diffuse with Point Light" width="450" height="450">
+	  
+	<p>specular and diffuse with multiple lights (command: -ks 1 1 1 -kd 1 1 1 -sp 40 -pl 2 2 2 0.3 0.3 0.8 -dl 0 -1 -.1 .5 .3 .1 -pl 0 -3 .3 .3 .3 0)</p>
+	  
+	<img src="specdiffmult.png" alt="Specular and Diffuse with Multiple Lights" width="450" height="450">
+	  
+
+</body>
+</html>

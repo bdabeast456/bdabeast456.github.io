@@ -1,0 +1,9 @@
+Command Line:
+./raytracer input input-06.scn write_img image-06
+
+Run-time: <3s
+
+Features demonstrated:
+-translation
+-point lighting
+-phong shading
